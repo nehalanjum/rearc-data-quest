@@ -60,3 +60,11 @@
 
 ## 4. AI usage
 I used Claude (Anthropic) as a reference and for drafting the ingestion notebook, the pipeline scaffold and this document. I ran everything in my own Databricks workspace, debugged the pipeline failures described above, and checked the SQL and PySpark outputs against each other. I can explain every part of the code.
+
+##5. Bonus Work
+Testing the Genie space showed it silently picked one of three series for a measure; I fixed it by adding an instruction to show all three.
+Sample Response from prompt
+
+<img width="1339" height="854" alt="image" src="https://github.com/user-attachments/assets/798051a7-782e-431a-9c2c-58a7799ad2c6" />
+
+
